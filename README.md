@@ -18,7 +18,7 @@ Básicamente las tecnologías que se implementan ya las comenté, pero de igual 
 - Creación de un sitio web responsive (No he tenido la oportunidad de testearlo en muchos dispositivos)
 - Creación de un menú hamburguesa para dispositivos móviles (Me funciona en los dispositivos y pantallas que los he probado)
 - Estructuración de una página web a partir de HTML5
-- Para el scroll de las animaciones utilicé la librería [AOS] (https://michalsnik.github.io/aos/). ¡ GRAN APORTE QUE ME AYUDO A DARLE DINAMISMO A LA PÁGINA!!!
+- Para el scroll de las animaciones utilicé la librería ["AOS"] a la cual puedes accedrer en el siguiente enlace (https://michalsnik.github.io/aos/).Esta libreria me ayudó muchisimo para darle más dinamismo a la página.!!!
 
 ***
 
