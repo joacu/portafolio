@@ -5,7 +5,7 @@
 Dentro de este repositorio encontraras el proyecto más grande que he realizado hasta ahora, el cual se desarrolló bajo las siguientes tecnologías
 
 - HTML
-- CSS
+- CSS (Muuuuuucho CSS)
 - JavaScript
 
 Este portafolio aún se encuentra en proceso de mejoras y constantes actualizaciones.
