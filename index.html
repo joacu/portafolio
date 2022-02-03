@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Acuña</title>
+    <!-- Icono de la Barra de Direccion -->
+    <link rel="shortcut icon" href="img/nave.ico">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Fuentes CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+
+    <!-- Iconos del Body -->
+    <script src="https://kit.fontawesome.com/9491a27877.js" crossorigin="anonymous"></script>
+
+    <!-- Animaciones de Imagenes -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- jquery / ajax -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="page-loader"><span class="preloader-interior"></span></div>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="img/" alt="">
+                  
+                </div>
+                <div class="enlaces-header">
+                    <a onclick="goToId('inicio')" class="active">Inicio</a>
+                    <a onclick="goToId('about')">Sobre Mí</a>
+                    <a onclick="goToId('portafolio')">Proyectos</a>
+                    <a onclick="goToId('conocimientos')">Conocimientos</a>
+                    <a onclick="goToId('habilidades')">Habilidades</a>
+                    <a onclick="goToId('contactame')">Contáctame</a>
+                    
+                </div>
+
+                <!--  <div class="lenguajes">
+                    <p>
+                        <a href="">ES</a> | <a href="">EN</a>
+                    </p>
+                </div>   -->
+
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+
+        <!--    Inicio del Header   -->
+        <div class="contenedor" id="inicio">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>BIENVENIDOS! <br> <font color="#340F99"> Soy José Miguel</font>
+                    </h1>
+                    <p>Un amante de las tecnologías</p>
+                    <a href="" download>Descarga mi curriculum </a>
+                </section>
+                <img src="img/programador3.png" alt="">
+            </section>
+        </div>
+    </header>
+    
+    <!--    ABOUT US  -->
+    <section class="about-us">
+        <div class="contenedor1" id="about">
+            <h2 class="titulo">
+                <strong style="color:#fff">Sobre </strong><strong style=" color: #fff">Mí
+</strong></h2>
+            <!--    +++++++++++++++  -->
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-palette"></i>
+                    <h3>Front-end</h3>
+                    <p>Me encanta comenzar un proyecto desde cero y poner un toque de mi en cada diseño.</p>
+                    <!-- <a href="#">Read more</a> -->
+                </div>
+
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-child"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Me encanta el diseño para todo tipo de dispositivos y siempre me gusta dedicarle el tiempo adecuado para que la experiencia del usuario sea a mejor</p>
+                    <!-- <a href="#">Read more</a> -->
+                </div>
+
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-code"></i>
+                    <h3>Frameworks</h3>
+                    <p>Me gusta estar en constante estudio ante las nuevas tecnologías, ponerme retos, diseñar y programar cosas nuevas.</p>
+                    <!-- <a href="#">Read more</a> -->
+                </div>
+
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Control de Versiones</h3>
+                    <p>Aun pensando en el texto que ira en esta tarjeta</p>
+
+                </div> 
+
+                <!-- <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>Frameworks</h3>
+                    <p>¿Comenzar algo desde cero? ¡Sin nada de ayuda! <br> Por suerte ya tengo una estructura que me puede ayudar a completar mi trabajo mas rapido.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!--portfolio------------------->
+    <div class="portfolio" id="portafolio">
+        <!--encabezado----------->
+        <h1 class="p-headind">Portafolio</h1>
+        <!--contenido del portafolio------------>
+        <div class="p-container">
+            <!--portfolio-box-1-------->
+            <div class="p-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <!--text--------->
+                <a href="https://joacu.github.io/ColorGame/" target="_blank" rel="noopener noreferrer">
+                <div class="overlay-text">
+                    <h1>"Color Game"</h1>
+                    <p>HTML | CSS | JS</p>
+                    <p>Juego</p>
+                </div>
+                </a>
+                <!--bg-img------------->
+                <img src="img/colorGame2.jpg">
+            </div>
+
+
+            
+            <!--portfolio-box-2-------->
+            <div class="p-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <!--text--------->
+                <a href="https:" target="_blank" rel="noopener noreferrer">
+                <div class="overlay-text">
+                    <h1>Portafolio Personal</h1>
+                    <p>HTML | CSS | JS</p>
+                </div>
+                </a>
+                <!--bg-img------------->
+                <img src="img/disenadores-estan-trabajando-diseno-pagina-web-diseno-web-interfaz-usuario-organizacion-contenido-experiencia-usuario_335657-4403.jpg">
+            </div>
+            <!--portfolio-box-3-------->
+            <div class="p-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <!--text--------->
+                <a href="https:" target="_blank" rel="noopener noreferrer">
+                <div class="overlay-text">
+                    <h1>Modo Oscuro - Pronto</h1>
+                    <p>HTML | CSS | JS</p>
+                </div>
+                </a>
+                <!--bg-img------------->
+                <img src="img/sitio en construccion.jpg">
+            </div>
+            
+            
+
+        </div>
+    </div>
+
+    <!-- RESULTS -->
+    <section class="results" id="conocimientos">
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left" data-aos-duration="2500">
+                    <h4>Desarrollo</h4>
+                    <p><img src="img/html5.png" alt="html"> <img src="img/css-3.png" alt="css"> <img src="img/js.png" alt="javascript"> </p>
+                </div>
+
+                <div class="number" data-aos="zoom-in-left" data-aos-duration="2500">
+                    <h4>Diseño</h4>
+                    <p><img src="img/photoshop.png" alt="photoshop"> <img src="img/ilustrador-adobe.png" alt="ilustrador-adobe"></p>
+                </div>
+
+                <div class="number" data-aos="zoom-in-left" data-aos-duration="2500">
+                    <h4>Entornos de Desarrollo</h4>
+                    <p><img src="img/visual-studio.png" alt="visual-studio"> <img src="img/sublimetext.png" alt=""></p>
+                </div>
+
+                <div class="number" data-aos="zoom-in-left" data-aos-duration="2500">
+                    <h4>Framework</h4>
+                    <p><img src="img/bootstrap.png" alt="bootstrap"> </p>
+                </div>
+            </section>
+            <section class="results-text">
+                <h4><strong> Algunos de mis <span style="color:#00f7ff" id="js-rotating">Conocimientos, Lenguajes, Herramientas, Frameworks</span></strong></h4>
+                <p></p>
+            </section>
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section class="services" id="habilidades">
+    <div class="contenedor1 services" >
+        
+        
+        <div class="box-skills">
+            <h2 class="titulo">
+                <font color="#5d0ca8">Mis </font>Habilidades
+            </h2>
+            <h4 data-aos="fade-left" data-aos-duration="2000"><i class="far fa-check-circle"></i>Desarrollo Web</h4>
+            <h4 data-aos="fade-left" data-aos-duration="2000"><i class="far fa-check-circle"></i>Responsive Design</h4>
+            <h4 data-aos="fade-left" data-aos-duration="2000"><i class="far fa-check-circle"></i>Redes y datos</h4>
+            <h4 data-aos="fade-left" data-aos-duration="2000"><i class="far fa-check-circle"></i>algo ira aca</h4>
+            <h4 data-aos="fade-left" data-aos-duration="2000"><i class="far fa-check-circle"></i>algo ira aca</h4>
+            
+        </div>
+        <img src="img/quintailustracion.svg" alt="" data-aos="zoom-out-up" data-aos-duration="2500">
+    </div>
+</section>
+
+    <footer>
+        <div class="partFooter" id="contactame">
+            <h4>Contáctame</h4>
+            <div class="social-media">
+
+                
+                
+                <a href="https://api.whatsapp.com/send/?phone=56959513909&text=Hola+José+Miguel.+Vi+tú+portafolio+y+me+gustaría+hablar+contigo&app_absent=0" target= "_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp"></i> </a>
+                <a href="https://github.com" target= "_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i> </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <!-- <i class="fab fa-twitter"></i> -->
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <br>
+                <br><br>
+                
+               
+                <p>Diseñado por José Acuña</p>
+        
+            </div>
+        </div>
+    </footer>
+    <script src="dist/morphext.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // Función para ir a una parte de la página
+    function goToId(idName) {
+      if ($("#" + idName).length) {
+        var target_offset = $("#" + idName).offset();
+        var target_top = target_offset.top;
+        $('html,body').animate({
+          scrollTop: target_top 
+        }, {
+          duration: "slow"
+        });
+      }
+    };
+
+    </script>
+
+
+
+    <script>
+    $(window).on("load",function(){
+        // $('#page-loader').fadeOut("slow");
+    $('#page-loader').fadeOut(2000);
+
+});
+
+// enlaces header
+
+$(function() {
+  
+  // elementos de la lista
+  var menues = $(".enlaces-header a"); 
+
+  // manejador de click sobre todos los elementos
+  menues.click(function() {
+     // eliminamos active de todos los elementos
+     menues.removeClass("active");
+     // activamos el elemento clicado.
+     $(this).addClass("active");
+  });
+
+});
+
+$("#js-rotating").Morphext({
+    // The [in] animation type. Refer to Animate.css for a list of available animations.
+    animation: "bounceIn",
+    // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+    separator: ",",
+    // The delay between the changing of each phrase in milliseconds.
+    speed: 2000,
+    complete: function () {
+        // Called after the entrance animation is executed.
+    }
+});
+</script> 
+
+</body>
+
+</html>
