@@ -6,8 +6,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     /*font-family: 'Montserrat', sans-serif;*/
+    /*font-family: monospace;*/
     
 }
 
@@ -32,7 +33,7 @@ body {
         margin: -75px 0 0 -75px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #3f34df;
+        border-top-color: #0c00b3;
      
         -webkit-animation: spin 1s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
               animation: spin 1s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -100,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1d273b;
+    color: #470081;
     font-weight: 300;
     cursor: pointer;
 }
@@ -512,7 +513,7 @@ p {
 
 .numbers .number {
     width: 40%;
-    background: rgba(202, 179, 206, 0.432);
+    background: rgba(202, 179, 206, 0.548);
     color: #fff;
     border-radius: 10px;
     padding: 40px 35px;
